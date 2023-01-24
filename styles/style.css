@@ -1,0 +1,11 @@
+.navbar-nav li a{
+    color: #B68C5A;
+}
+.btn-primary-clr{
+    background-color: #B68C5A;
+    color: white;
+}
+.btn-primary-clr:hover{
+    background-color: rgb(206, 239, 239);
+    color:#B68C5A;
+}
