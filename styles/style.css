@@ -1,3 +1,8 @@
+*{
+    font-family: 'EB Garamond', serif;
+     /* font-family: 'Work Sans', sans-serif; */
+}
+/* navbar */
 .navbar-nav li a{
     color: #B68C5A;
 }
@@ -8,4 +13,32 @@
 .btn-primary-clr:hover{
     background-color: rgb(206, 239, 239);
     color:#B68C5A;
+}
+/* banner */
+.banner{
+    background-image:
+    linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%),
+    url(../images/banner.png);
+    width: 100%;
+    /* height: 400px; */
+    background-size: cover;
+    color: white;
+    padding:60px;
+}
+.sml{
+    width:65%;
+}
+.btn-2{
+    width:100px;
+}
+/* media query */
+@media screen and (max-width:576px) {
+    .sml{
+        width:75%;
+    }
+    .banner{
+        background-size: cover;
+        /* color: white; */
+        padding:10px;
+    }
 }
