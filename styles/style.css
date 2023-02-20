@@ -53,6 +53,7 @@ transform: rotate(-180deg);
 } 
 
 .pos{
+    
     position:relative;
     top: -200px;
     padding: 10px;
